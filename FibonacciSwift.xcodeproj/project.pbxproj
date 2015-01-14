@@ -28,9 +28,10 @@
 		2738FA111A670E0000FD2246 /* FibonacciSequenceGenerator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciSequenceGenerator.playground; sourceTree = "<group>"; };
 		2738FA121A67107300FD2246 /* FactorialFunction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactorialFunction.playground; sourceTree = "<group>"; };
 		274179801A671319005F0AB0 /* FibonacciFunMath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciFunMath.playground; sourceTree = "<group>"; };
+		274179811A6718C7005F0AB0 /* FibonnaciSwiftForLoop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonnaciSwiftForLoop.playground; sourceTree = "<group>"; };
+		274179821A671C80005F0AB0 /* FibonacciArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciArray.playground; sourceTree = "<group>"; };
 		27AAF72F1A670CCA00087781 /* FibonacciSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FibonacciSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AAF7321A670CCA00087781 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		27AAF7391A670D0300087781 /* FibonnaciSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonnaciSwift.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				27AAF7321A670CCA00087781 /* main.swift */,
-				27AAF7391A670D0300087781 /* FibonnaciSwift.playground */,
+				274179811A6718C7005F0AB0 /* FibonnaciSwiftForLoop.playground */,
 				2738FA121A67107300FD2246 /* FactorialFunction.playground */,
+				274179821A671C80005F0AB0 /* FibonacciArray.playground */,
 				2738FA0F1A670DBD00FD2246 /* CustomSwiftSequence.playground */,
 				2738FA101A670DDE00FD2246 /* CustomSwiftSequenceExample.playground */,
 				2738FA111A670E0000FD2246 /* FibonacciSequenceGenerator.playground */,

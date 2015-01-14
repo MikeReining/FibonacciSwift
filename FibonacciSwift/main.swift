@@ -17,24 +17,30 @@ import Cocoa
 
 // Use For loop for specific number of times since n is know
 
-func nthFibonnaciNumber (nthNumber: Int) {
-    var fibonacciArray = [0,1]
-    while fibonacciArray.count < nthNumber + 1 {
-        fibonacciArray.append(fibonacciArray[fibonacciArray.count - 2] + fibonacciArray[fibonacciArray.count - 1])
+
+func nthFibonnaciNumber(number: Int) -> Int {
+    var first = 0
+    var second = 1
+    var next: Int
+    var nthNumber = 0
+    
+    for n in 0...number {
+        if n <= 1 {
+            next = n
+        } else {
+            next = first + second
+            first = second
+            second = next
+            nthNumber = next
+        }
     }
-    println(fibonacciArray)
-    
-    // Grab nth Fibonnaci number from array
-    
-    println(fibonacciArray[nthNumber])
-    println("")
+    println(nthNumber)
+    return nthNumber
 }
 
-nthFibonnaciNumber(8)
-
 nthFibonnaciNumber(5)
-
-nthFibonnaciNumber(11)
+nthFibonnaciNumber(5)
+nthFibonnaciNumber(10)
 
 // MARK: IMPLEMENTED FIBONACCI VIA MATH FORMULA FOR FUN
 // create custom operator for Square Root
@@ -64,6 +70,8 @@ func fibonacciNumber(nthNumber:Double) -> Double {
     return (PhiToN - phiTon) / √5
 }
 
+var fibonnaci10 = fibonacciNumber(10)
+println("\(fibonnaci10)")
 var fibonnaci200 = fibonacciNumber(60)
 println("\(fibonnaci200)")
 
